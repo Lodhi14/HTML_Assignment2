@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        FORM
+    </title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        h3 {
+            text-align: center;
+        }
+
+        table {
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        table.center {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Student Registration Form</h1>
+    <form>
+        <table>
+            <tr>
+                <th> </th>
+                <th> </th>
+            </tr>
+            <tr>
+                <td><label for="name">Name:</label></td>
+                <td><input type="text" id="name" name="name"></td>
+            </tr>
+            <tr>
+                <td><label for="phone">Phone No.:</label></td>
+                <td><input type="tel" id="phone" name="phone"></td>
+            </tr>
+            <tr>
+                <td><label for="dob">Date of Birth:</label></td>
+                <td><input type="date" id="dob" name="dob"></td>
+            </tr>
+            <tr>
+                <td><label for="address">Address:</label></td>
+                <td><textarea name="address" minlength="10" maxlength="40" required></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="gender">Gender:</label></td>
+                <td><input type="radio" id="male" name="gender" value="Male">
+                    <label for="male">Male</label>
+                </td>
+                <td>
+                    <input type="radio" id="female" name="gender" value="Female">
+                    <label for="female">Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="city">City:</label></td>
+                <td>
+                    <select name="city" id="city">
+                        <option value="">Select City</option>
+                        <option value="Ambala">Ambala</option>
+                        <option value="Asandh">Asandh</option>
+                        <option value="Ateli Mandi">Ateli Mandi</option>
+                        <option value="Bahadurgarh">Bahadurgarh</option>
+                        <option value="Bara Uchana">Bara Uchana</option>
+                        <option value="Barwala">Barwala</option>
+                        <option value="Bawal">Bawal</option>
+                        <option value="Beri Khas">Beri Khas</option>
+                        <option value="Bhiwani">Bhiwani</option>
+                        <option value="Bilaspur">Bilaspur</option>
+                        <option value="Buriya">Buriya</option>
+                        <option value="Charkhi Dadri">Charkhi Dadri</option>
+                        <option value="Chhachhrauli">Chhachhrauli</option>
+                        <option value="Dabwali">Dabwali</option>
+                        <option value="Dharuhera">Dharuhera</option>
+                        <option value="Ellenabad">Ellenabad</option>
+                        <option value="Faridabad">Faridabad</option>
+                        <option value="Faridabad District">Faridabad District</option>
+                        <option value="Farrukhnagar">Farrukhnagar</option>
+                        <option value="Fatehabad">Fatehabad</option>
+                        <option value="Fatehabad District">Fatehabad District</option>
+                        <option value="Firozpur Jhirka">Firozpur Jhirka</option>
+                        <option value="Gharaunda">Gharaunda</option>
+                        <option value="Gohana">Gohana</option>
+                        <option value="Gorakhpur">Gorakhpur</option>
+                        <option value="Gurgaon">Gurgaon</option>
+                        <option value="Hansi">Hansi</option>
+                        <option value="Hasanpur">Hasanpur</option>
+                        <option value="Hisar">Hisar</option>
+                        <option value="Hodal">Hodal</option>
+                        <option value="Inda Chhoi">Inda Chhoi</option>
+                        <option value="Indri">Indri</option>
+                        <option value="Jagadhri">Jagadhri</option>
+                        <option value="Jakhal">Jakhal</option>
+                        <option value="Jhajjar">Jhajjar</option>
+                        <option value="Jind">Jind</option>
+                        <option value="Kaithal">Kaithal</option>
+                        <option value="Kalanaur">Kalanaur</option>
+                        <option value="Kalanwali">Kalanwali</option>
+                        <option value="Kanina Khas">Kanina Khas</option>
+                        <option value="Karnal">Karnal</option>
+                        <option value="Kharkhauda">Kharkhauda</option>
+                        <option value="Kheri Sampla">Kheri Sampla</option>
+                        <option value="Kurukshetra">Kurukshetra</option>
+                        <option value="Ladwa">Ladwa</option>
+                        <option value="Loharu">Loharu</option>
+                        <option value="Maham">Maham</option>
+                        <option value="Mahendragarh">Mahendragarh</option>
+                        <option value="Mandholi Kalan">Mandholi Kalan</option>
+                        <option value="Mustafabad">Mustafabad</option>
+                        <option value="Narayangarh">Narayangarh</option>
+                        <option value="Narnaul">Narnaul</option>
+                        <option value="Narnaund">Narnaund</option>
+                        <option value="Narwana">Narwana</option>
+                        <option value="Nilokheri">Nilokheri</option>
+                        <option value="Nuh">Nuh</option>
+                        <option value="Palwal">Palwal</option>
+                        <option value="Panchkula">Panchkula</option>
+                        <option value="Panipat">Panipat</option>
+                        <option value="Pataudi">Pataudi</option>
+                        <option value="Pehowa">Pehowa</option>
+                        <option value="Pinjaur">Pinjaur</option>
+                        <option value="Punahana">Punahana</option>
+                        <option value="Pundri">Pundri</option>
+                        <option value="Radaur">Radaur</option>
+                        <option value="Rania">Rania</option>
+                        <option value="Ratia">Ratia</option>
+                        <option value="Rewari">Rewari</option>
+                        <option value="Rewari District">Rewari District</option>
+                        <option value="Rohtak">Rohtak</option>
+                        <option value="Safidon">Safidon</option>
+                        <option value="Samalkha">Samalkha</option>
+                        <option value="Shadipur Julana">Shadipur Julana</option>
+                        <option value="Shahabad">Shahabad</option>
+                        <option value="Sirsa">Sirsa</option>
+                        <option value="Sohna">Sohna</option>
+                        <option value="Sonipat">Sonipat</option>
+                        <option value="Taoru">Taoru</option>
+                        <option value="Thanesar">Thanesar</option>
+                        <option value="Tohana">Tohana</option>
+                        <option value="Tosham">Tosham</option>
+                        <option value="Uklana">Uklana</option>
+                        <option value="Yamunanagar">Yamunanagar</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="hobbies">Hobbies:</label></td>
+                <td>
+                    <input type="checkbox" id="hobby1" name="hobby1" value="Music">
+                    <label for="">Music</label>
+                </td>
+            </tr>
+            <tr>
+                <td> </td>
+                <td>
+                    <input type="checkbox" id="hobby2" name="hobby2" value="Sports">
+                    <label for="">Sports</label>
+                </td>
+            </tr>
+            <tr>
+                <td> </td>
+                <td>
+                    <input type="checkbox" id="hobby3" name="hobby3" value="Coding">
+                    <label for="">Coding</label>
+                </td>
+            </tr>
+            <tr>
+                <td> </td>
+                <td>
+                    <input type="checkbox" id="hobby4" name="hobby4" value="Dance">
+                    <label for="">Dance</label>
+                </td>
+            </tr>
+            <tr>
+                <td><button type="button">Submit</button></td>
+                <td><button type="button">Reset</button></td>
+            </tr>
+        </table>
+        <h3>Student Records</h3>
+        <table style="border: 1px solid red;">
+            <tr>
+                <th>S.No.</th>
+                <th>Name</th>
+                <th>Phone No.</th>
+                <th>Gender</th>
+                <th>DOB</th>
+                <th>Interest</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Lakshay</td>
+                <td>8537095325</td>
+                <td>Male</td>
+                <td>26/07/2000</td>
+                <td>Dance<br>
+                    Sports<br>
+                    Coding
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Vedansh</td>
+                <td>9694315853</td>
+                <td>Male</td>
+                <td>30/07/2012</td>
+                <td>Music<br>
+                    Sports
+                </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Snehal</td>
+                <td>9876524754</td>
+                <td>Female</td>
+                <td>03/03/2003</td>
+                <td>Dance<br>
+                    Coding<br>
+                    Music
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
